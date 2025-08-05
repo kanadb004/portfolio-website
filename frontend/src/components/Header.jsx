@@ -30,7 +30,8 @@ const Header = () => {
     >
       <div className="header-container">
         <div className="logo">
-          <h2>Kanad Bhattacharya</h2>
+          <img src="../kb.jpeg" alt="" srcset="" />
+          {/* <h2>Kanad Bhattacharya</h2> */}
         </div>
         
         <nav className={`nav ${isMobileMenuOpen ? 'nav-open' : ''}`}>

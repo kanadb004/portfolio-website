@@ -24,11 +24,25 @@
   align-items: center;
 }
 
-.logo h2 {
+/* .logo h2 {
   color: #2c3e50;
   margin: 0;
   font-size: 1.5rem;
   font-weight: 600;
+} */
+
+.logo {
+  /* Set a maximum height for the logo container */
+  height: 40px; /* Adjust this value as needed */
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  /* Make the image responsive and fit within the container */
+  height: 100%;
+  width: auto;
+  object-fit: contain; /* Ensures the entire image is visible without being cropped */
 }
 
 .nav ul {
